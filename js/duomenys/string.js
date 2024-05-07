@@ -57,5 +57,5 @@ x += 10
 console.log(t2, x, "Eur")
 console.log(t1, x, "Eur")
 x += 90
-console.log(t2, x-10, "Eur")
+console.log(t2, x - 10, "Eur")
 console.log(t1, x, "Eur")
