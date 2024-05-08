@@ -61,7 +61,7 @@ function colorTranslation(color) {
     } else if (color === 'orange') {
         translation = 'Oranzine';
     } else {
-        translation = '...';
+        translation = 'Nezinau tokios spalvos...';
     }
 
     return color + ' -> ' + translation;
