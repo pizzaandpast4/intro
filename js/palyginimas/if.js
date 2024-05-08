@@ -56,6 +56,10 @@ function colorTranslation(color) {
         translation = 'Zalia';
     } else if (color === 'white') {
         translation = 'Balta';
+    } else if (color === 'black') {
+        translation = 'Juoda';
+    } else if (color === 'orange') {
+        translation = 'Oranzine';
     } else {
         translation = '...';
     }
