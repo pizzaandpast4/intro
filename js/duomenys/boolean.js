@@ -49,6 +49,7 @@ console.log(2 + 2 * 2);
 console.log((2 + 2) * 2);
 
 console.clear();
+
 console.log(true && true);
 console.log(true && false);
 console.log(false && true);
@@ -60,6 +61,7 @@ console.log(false || true);
 console.log(false || false);
 
 console.clear();
+
 console.log(true && true || true);
 console.log(true && true || false);
 
@@ -71,6 +73,8 @@ console.log(false && true || false);
 
 console.log(false && false || true);
 console.log(false && false || false);
+
+console.clear();
 
 console.log('-----------------------');
 
