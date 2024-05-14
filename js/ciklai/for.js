@@ -1,34 +1,32 @@
 /*
-FOR - pgrindinis ciklas (angliskai loop)
+FOR - pagrindinis ciklas (en. loop)
 */
+
 console.log('START');
 
-for (let i = 0; i < 10; i++) {
+for (let i = 20; i > 10; i -= 2.3) {
     console.log(i);
+}
+
+for (let i = 200; i > 100; i -= 23) {
+    console.log(i / 10);
 }
 
 console.log('FINISH');
 
-console.clear();
 
+console.clear();
+//                  0       1       2       3       4         5
 const colors = ['white', 'black', 'red', 'green', 'blue', 'violet'];
 
-console.log(colors[0]);
-console.log(colors[1]);
-console.log(colors[2]);
-console.log(colors[3]);
-console.log(colors[4]);
-
-console.log('----------------');
-
 for (let i = 0; i < colors.length; i++) {
-    console.log(i, colors[i]);
+    console.log(i, colors[colors.length - 1 - i]);
 }
 
-console.log('----------------');
+console.log('--------------');
 
-for (let i = colors.length - 1; i > -1; i--) {
-    console.log(i, colors[i]);
+for (let i = colors.length - 1; i >= 0; i--) {
+    console.log(i, colors[colors.length - 1 - i]);
 }
 
 console.clear();
@@ -60,10 +58,19 @@ function marksAverage(marks) {
     for (let i = 0; i < marks.length; i++) {
         sum += marks[i];
     }
+
+    return sum / marks.length;
 }
 
 console.log(marksAverage(jonas));
-
 console.log(marksAverage(maryte));
 console.log(marksAverage(petras));
 console.log(marksAverage(ona));
+
+const text = 'Labas';
+
+console.log(text[0]);
+console.log(text[1]);
+console.log(text[2]);
+console.log(text[3]);
+console.log(text[4]);
