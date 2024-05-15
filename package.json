@@ -4,7 +4,9 @@
     "main": "index.js",
     "scripts": {
         "method:number": "node --watch ./js/metodai/number.js",
-        "hw": "node --watch ./js//HW/hw.js",
+        "method:string": "node --watch ./js/metodai/string.js",
+        "hw": "node --watch ./js/HW/hw.js",
+        "polish": "node --watch ./js/HW/polish.js",
         "for": "node --watch ./js/ciklai/for.js",
         "if": "node --watch ./js/palyginimas/if.js",
         "function": "node --watch ./js/funkcijos/function.js",
