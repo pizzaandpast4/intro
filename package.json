@@ -6,6 +6,8 @@
         "method:number": "node --watch ./js/metodai/number.js",
         "method:string": "node --watch ./js/metodai/string.js",
         "hw": "node --watch ./js/HW/hw.js",
+        "clock": "node --watch ./js/HW/clock.js",
+        "matrix": "node --watch ./js/HW/matrix.js",
         "polish": "node --watch ./js/HW/polish.js",
         "for": "node --watch ./js/ciklai/for.js",
         "if": "node --watch ./js/palyginimas/if.js",
