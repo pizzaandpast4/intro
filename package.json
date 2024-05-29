@@ -3,6 +3,10 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
+        "des.js": "node --watch ./js/metodai/des.js",
+        "spread.js": "node --watch ./js/metodai/spread.js",
+        "array2.js": "node --watch ./js/metodai/array2.js",
+        "array.js": "node --watch ./js/metodai/array.js",
         "math.js": "node --watch ./js/metodai/math.js",
         "random.js": "node --watch ./js/metodai/random.js",
         "method:number": "node --watch ./js/metodai/number.js",
@@ -12,6 +16,7 @@
         "matrix": "node --watch ./js/HW/matrix.js",
         "polish": "node --watch ./js/HW/polish.js",
         "for": "node --watch ./js/ciklai/for.js",
+        "switch": "node --watch ./js/palyginimas/switch.js",
         "if": "node --watch ./js/palyginimas/if.js",
         "ternary": "node --watch ./js/palyginimas/ternary.js",
         "function": "node --watch ./js/funkcijos/function.js",
@@ -27,5 +32,8 @@
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "description": ""
-  }
+    "description": "",
+    "dependencies": {
+        "dead-server": "^1.0.9"
+    }
+}
